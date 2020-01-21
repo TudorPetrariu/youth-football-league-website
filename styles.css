@@ -1,0 +1,220 @@
+@media screen and (max-width: 500px) {
+	nav a {
+		background: firebrick;
+		color: white;
+		height: 3.5em;
+	}
+
+	.menu a {
+		border: none;
+		margin-left: 1em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		font-size: .8em;
+	}
+	.jersey-Size,
+	.short-Size {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.School {
+		display: flex;
+		margin: 20px;
+	}
+	.School1 {
+		display: flex;
+		flex-direction: column;
+	}
+	.logo img {
+		width: 50%;
+	}
+}
+
+body {
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	overflow-x: hidden;
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	border: none;
+	position: relative;
+	background: #159957;
+	background: -webkit-linear-gradient(to right, #155799, #159957);
+	background: linear-gradient(to right, #155799, #159957);
+}
+.School label {
+	margin-top: -.7em;
+	margin-left: 2em;
+	text-align: center;
+	font-weight: 500;
+	display: flex;
+}
+select {
+	height: 2.5em;
+	border-radius: 50px;
+}
+header {
+	width: 100%;
+	text-align: center;
+}
+aside {
+	position: absolute;
+	width: 30%;
+	top: 40%;
+	left: 0;
+	height: 40%;
+}
+.box6 input {
+	color: #fff;
+}
+.map {
+	width: 100%;
+	height: 90%;
+	margin-bottom: 20%;
+}
+main {
+	position: absolute;
+	width: 55%;
+	top: 26%;
+	left: 30%;
+	height: 50%;
+}
+span {
+	color: rgb(248, 248, 28);
+}
+h5 {
+	color: rgb(248, 248, 28);
+	font-size: 2em;
+}
+.title {
+	/* height: 100px; */
+	width: 100%;
+	color: white;
+}
+.sub-title {
+	width: 100%;
+	height: 70px;
+	color: white;
+}
+.logo {
+	margin-right: 25vw;
+	margin-top: 10vh;
+}
+.logo img {
+	opacity: .3;
+	position: fixed;
+}
+nav a {
+	width: 45%;
+	display: block;
+	margin: 5px auto;
+	border: 1px solid black;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background: #169599;
+}
+.menu {
+	width: 80%;
+	height: 0%;
+	margin-top: -20%;
+}
+nav :hover {
+	color: rgb(212, 197, 57);
+	transition: all .5s ease-out;
+	border-color: rgb(212, 197, 57);
+}
+.active {
+	color: rgb(212, 197, 57);
+	border: 1px solid rgb(212, 197, 57);
+	background: #178681;
+}
+table {
+	width: 80%;
+	margin-bottom: 40px;
+}
+td {
+	width: 25%;
+	text-align: center;
+	color: #fff;
+}
+li {
+	color: #fff;
+}
+.tab {
+	font-size: 1em;
+}
+.italic {
+	font-style: italic;
+}
+.Container div {
+	display: flex;
+	justify-content: space-between;
+	padding: 1em;
+}
+.Permission {
+	align-items: center;
+	flex-flow: column wrap;
+}
+.events {
+	padding-top: 10%;
+	border-bottom-style: double;
+}
+.contact {
+	padding-top: 5%;
+}
+.rules {
+	padding-top: 5%;
+}
+p {
+	color: #fff;
+}
+label {
+	color: #fff;
+	padding-right: 2em;
+}
+.Agree label {
+	font-size: 1em;
+	text-align: center;
+}
+input {
+	width: 70%;
+	text-align: center;
+}
+/* .Container  {
+	color: #fff;
+} */
+.Container div,
+input {
+	color: #fff;
+}
+.Container p {
+	color: rgb(212, 197, 57);
+}
+.approval {
+	width: 100%;
+	background-color: rgb(209, 203, 203);
+	border-style: none;
+	height: 2em;
+	margin-bottom: 50px;
+}
+.play-position span {
+	color: #fff;
+}
+.uniform {
+	display: flex;
+	justify-content: space-between;
+}
+.uniform span {
+	color: #fff;
+}
+.jersey-Size span {
+	color: #fff;
+}
+.short-Size span {
+	color: #fff;
+}
