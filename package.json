@@ -1,0 +1,16 @@
+{
+	"name": "nysl",
+	"version": "1.0.0",
+	"description": "Youth football Game  Schedules and Locations",
+	"main": "index.js",
+	"homepage": "https://tudorpetrariu.github.io/youth-football-league-website",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"deploy": "gh-pages -d dist"
+	},
+	"author": "Tudor Petrariu",
+	"license": "MIT",
+	"dependencies": {
+		"gh-pages": "^2.2.0"
+	}
+}
